@@ -26,7 +26,7 @@
 
 ## What's included
 
-```text
+```
 libft
 ├── Makefile
 ├── assets
@@ -85,11 +85,28 @@ libft
 
 Libft with bonus.
 
-As I never touched code or programmation before joining the school, this is where it starts all.
+As I never touched code or programmation before joining the school, this is where it all begins.
 
-- "make" => compile mandatory part
-- "make bonus" => compile mandatory + bonus part
-
+- Clone repo :
+    ```
+    git clone https://github.com/llecoq/libft.git
+    ```
+- Get inside the root of the directory :
+    ```
+    cd libft
+    ```
+- Compile mandatory part
+    ```
+    make
+    ```
+- Compile mandatory + bonus part
+    ```
+    make bonus
+    ```
+- Link the library with your program
+    ```
+    gcc main.c -I. libft.a
+    ```
 ## Creators
 
 **llecoq**
